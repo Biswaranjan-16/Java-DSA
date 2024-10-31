@@ -15,7 +15,7 @@ public class Exercise7 {
 		list.add(33);
 		list.add(99);
 
-		System.out.println(list);
+		//System.out.println(list);
          
 		if(list.contains(12)) {
 			System.out.println("number is available ");

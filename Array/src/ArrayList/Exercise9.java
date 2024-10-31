@@ -16,8 +16,8 @@ public class Exercise9 {
 		list2.add(33);
 		list2.add(99);
 
-		System.out.println(list1);
-		System.out.println(list2);
+//		System.out.println(list1);
+//		System.out.println(list2);
 		
 		Collections.copy(list1, list2);
 		

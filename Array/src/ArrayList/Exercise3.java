@@ -15,8 +15,8 @@ public class Exercise3 {
 		
 		System.out.println(list);
 		
-		list.add(0, "biswa");
-		list.add(2, "tiku");
+		list.set(0, "biswa");
+		list.set(2, "tiku");
 		
 		System.out.println(list);
 

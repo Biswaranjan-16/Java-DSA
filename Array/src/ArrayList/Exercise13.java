@@ -17,13 +17,10 @@ public class Exercise13 {
 		list2.add("green");
 		
 		ArrayList<String> list3 = new ArrayList<String>();
-		
+	
 		for(String e:list1) 
 			list3.add(list2.contains(e) ? "yes":"no");
 		System.out.println(list3);
-		
-		
-
 	}
 
 }

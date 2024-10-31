@@ -18,10 +18,10 @@ public class Exercise14 {
 		list.add("sky");
 		list.add("brown");
 		
-		System.out.println("before swap"+list);
+		System.out.println("before swap : "+list);
 		
 		Collections.swap(list, 0, 2);
-		System.out.print("after swap"+list);
+		System.out.print("after swap : "+list);
 
 	}
 
