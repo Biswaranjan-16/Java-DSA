@@ -11,7 +11,7 @@ public class Exercise5 {
 			{12,23,34,44},
 			{13,24,35,45}
 	};
-	System.out.println(Arrays.toString(search(arr,34)));
+	System.out.println(Arrays.toString(search(arr,35)));
 
 	}
 
