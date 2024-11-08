@@ -4,7 +4,7 @@ public class Exercise3 {
 
 	public static void main(String[] args) {
 		int[] arr = { 1, 8, 4, 67, 89, 16, 98, 43, 76, 23, 56 };
-		int target = 56;
+		int target = 43;
 
 		System.out.println(linersearch(arr, target, 4, 8));
 
