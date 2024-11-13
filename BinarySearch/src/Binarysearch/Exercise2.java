@@ -3,8 +3,8 @@ package Binarysearch;
 public class Exercise2 {
 
 	public static void main(String[] args) {
-		int[] arr= {1,2,3,4,5,6,7,8,9};
-		int target =8;
+		int[] arr= {4,17 ,18,19, 24, 27, 33, 56, 80, 95};
+		int target =19;
 		int ans=binarysearch(arr,target);
 		System.out.println(ans);
 	}
@@ -25,7 +25,7 @@ public class Exercise2 {
 			}
 		}
 		
-		return -1;
+		return 0;
 	}
 
 }

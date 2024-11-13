@@ -2,32 +2,32 @@ package BubbleSort;
 
 import java.util.Arrays;
 
-public class Exercise2 {
+public class Exercise3 {
 
 	public static void main(String[] args) {
-		int[] arr= {54,90,65,23,1,4,34,98};
-		sort(arr);
+		int[] arr= {3,4,6,9,2,5,9,7,5};
+		bubblesort(arr);
 		System.out.println(Arrays.toString(arr));
 
 	}
 
-	 static void sort(int[] arr) {
+	private static void bubblesort(int[] arr) {
 		boolean swapped;
-		for(int i=0;i<arr.length;i++) {
+		for (int i = 0; i < arr.length; i++) {
 			swapped =false;
-			for(int j=1;j<arr.length-1;j++) {
+			for(int j=1;j<arr.length;j++) {
 				if(arr[j] < arr[j-1]) {
 					int temp=arr[j];
-					arr[j] =arr[j-1];
+					arr[j]=arr[j-1];
 					arr[j-1]=temp;
-					swapped=true;
+					swapped= true;
 				}
 			}
 			if(!swapped) {
 				break;
 			}
-			
 		}
+		
 		
 	}
 
