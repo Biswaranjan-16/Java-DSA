@@ -7,13 +7,13 @@ public class Exercise12 {
 		int target=81;
 		System.out.println(linearsearch(num, target));
 	}
-		static int linearsearch(int[] arr,int target) {
-			if(arr.length==0) {
+		static int linearsearch(int[] num,int target) {
+			if(num.length==0) {
 				return -1;
 			}
 			
-			for(int index=0;index<arr.length;index++) {
-				int element=arr[index];
+			for(int index=0;index<num.length;index++) {
+				int element=num[index];
 				if(element==target) {
 					return index;
 				}
